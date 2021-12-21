@@ -145,6 +145,10 @@ h1 .img_logo {
   line-height: 20px;
   background-color: #EAE8FE;
 }
+.info_myitem .output_change {
+  margin-left: auto;
+  margin-right: 10px;
+}
 .info_myitem .btn_item {
   border: 1px solid #BDBDBD;
   border-radius: 5px;
@@ -225,6 +229,10 @@ h1 .img_logo {
   height: 50px;
   padding: 9px 27px;
   background-color: #FFFFFF;
+}
+.section_myitem .output_myMoney {
+  margin-left: auto;
+  margin-right: 10px;
 }
 .section_myitem .part_mymoney p {
   display: -webkit-box;
