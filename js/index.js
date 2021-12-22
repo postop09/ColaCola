@@ -31,7 +31,7 @@ function inputPay() {
     alert('입금액 입력이 잘못 되었습니다.');
     inputPay.value = '';
     return false;
-  } else if(money.textContent < 0) {
+  } else if(parseInt(money.textContent) - parseInt(inputPay.value) < 0) {
     alert('소지금이 부족합니다.');
     inputPay.value = '';
     return false;
